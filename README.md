@@ -58,8 +58,8 @@ Returns the start of the week based on the locale.
 
 <ul><li><code>start-of-week/source/index.ts</code> is typescript source code with import for modules</li>
 <li><code>start-of-week/edition-browsers/index.js</code> is typescript compiled for browsers with import for modules</li>
-<li><code>start-of-week</code> aliases <code>start-of-week/edition-node-11/index.js</code></li>
-<li><code>start-of-week/edition-node-11/index.js</code> is typescript compiled for node.js 11 with require for modules</li></ul>
+<li><code>start-of-week</code> aliases <code>start-of-week/edition-node-12/index.js</code></li>
+<li><code>start-of-week/edition-node-12/index.js</code> is typescript compiled for node.js 12 with require for modules</li></ul>
 
 <!-- /INSTALL -->
 
@@ -120,7 +120,9 @@ No sponsors yet! Will you be the first?
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/start-of-week/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/start-of-week">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/start-of-week/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 

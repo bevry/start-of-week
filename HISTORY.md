@@ -1,5 +1,9 @@
 # History
 
+## v1.2.0 2019 November 13
+
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v1.1.0 2019 May 13
 
 -   Added `module` field to point to the browser edition, as this project uses EcmaScript Modules, this adds support for [pika](https://www.pikapkg.com)

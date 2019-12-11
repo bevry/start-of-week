@@ -68,7 +68,7 @@ Returns the start of the week based on the locale.
 [API Documentation.](http://master.start-of-week.bevry.surge.sh/docs/)
 
 ```javascript
-const startOfWeek = require('start-of-week')
+import startOfWeek from 'start-of-week'
 console.log(startOfWeek) // 0 (Sunday) if North American, otherwise 1 (Monday)
 ```
 

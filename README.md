@@ -40,25 +40,44 @@ Returns the start of the week based on the locale.
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
 <ul>
 <li>Install: <code>npm install --save start-of-week</code></li>
-<li>Require: <code>require('start-of-week')</code></li>
+<li>Import: <code>import pkg from ('start-of-week')</code></li>
+<li>Require: <code>const pkg = require('start-of-week').default</code></li>
 </ul>
+
+<a href="https://www.pika.dev/cdn" title="100% Native ES Modules CDN"><h3>pika</h3></a>
+
+``` html
+<script type="module">
+    import pkg from '//cdn.pika.dev/start-of-week/^1.7.0'
+</script>
+```
+
+<a href="https://unpkg.com" title="unpkg is a fast, global content delivery network for everything on npm"><h3>unpkg</h3></a>
+
+``` html
+<script type="module">
+    import pkg from '//unpkg.com/start-of-week@^1.7.0/edition-browsers/index.js'
+</script>
+```
 
 <a href="https://jspm.io" title="Native ES Modules CDN"><h3>jspm</h3></a>
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/start-of-week'
+    import pkg from '//dev.jspm.io/start-of-week@1.7.0'
 </script>
 ```
 
 <h3><a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
 
-<p>This package is published with the following editions:</p>
+<p>This package is published with the following <a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a>:</p>
 
-<ul><li><code>start-of-week/source/index.ts</code> is typescript source code with import for modules</li>
-<li><code>start-of-week/edition-browsers/index.js</code> is typescript compiled for browsers with import for modules</li>
-<li><code>start-of-week</code> aliases <code>start-of-week/edition-node-12/index.js</code></li>
-<li><code>start-of-week/edition-node-12/index.js</code> is typescript compiled for node.js 12 with require for modules</li></ul>
+<ul><li><code>start-of-week/source/index.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> source code with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
+<li><code>start-of-week/edition-browsers/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a> for web browsers with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
+<li><code>start-of-week</code> aliases <code>start-of-week/edition-<a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a>/index.js</code></li>
+<li><code>start-of-week/edition-<a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a>/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a> for Node.js with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li></ul>
+
+<p>Environments older than Node.js v8 may need <a href="https://babeljs.io/docs/usage/polyfill/" title="A polyfill that emulates missing ECMAScript environment features">Babel's Polyfill</a> or something similar.</p>
 
 <!-- /INSTALL -->
 

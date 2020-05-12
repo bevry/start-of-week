@@ -59,7 +59,7 @@ If you want something comprehensive, use [gamtiq/weekstart](https://github.com/g
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.pika.dev/start-of-week/^1.8.0'
+    import pkg from '//cdn.pika.dev/start-of-week/^1.9.0'
 </script>
 ```
 
@@ -67,7 +67,7 @@ If you want something comprehensive, use [gamtiq/weekstart](https://github.com/g
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/start-of-week@^1.8.0'
+    import pkg from '//unpkg.com/start-of-week@^1.9.0'
 </script>
 ```
 
@@ -75,7 +75,7 @@ If you want something comprehensive, use [gamtiq/weekstart](https://github.com/g
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/start-of-week@1.8.0'
+    import pkg from '//dev.jspm.io/start-of-week@1.9.0'
 </script>
 ```
 

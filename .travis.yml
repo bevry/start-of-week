@@ -2,7 +2,6 @@ version: ~> 1.0
 sudo: false
 language: node_js
 node_js:
-  - '8'
   - '10'
   - '12'
   - '13'
@@ -14,15 +13,19 @@ cache: npm
 install:
   - >-
     eval "$(curl -fsSL
-    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/node-install.bash)"
+    https://raw.githubusercontent.com/bevry/awesome-travis/9fa2fa025c77b463d03154f39922af95cadc9c67/scripts/node-install.bash)"
 before_script:
   - >-
     eval "$(curl -fsSL
-    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/node-verify.bash)"
+    https://raw.githubusercontent.com/bevry/awesome-travis/9fa2fa025c77b463d03154f39922af95cadc9c67/scripts/node-verify.bash)"
 after_success:
   - >-
     eval "$(curl -fsSL
-    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/surge.bash)"
+    https://raw.githubusercontent.com/bevry/awesome-travis/9fa2fa025c77b463d03154f39922af95cadc9c67/scripts/surge.bash)"
   - >-
     eval "$(curl -fsSL
-    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/node-publish.bash)"
+    https://raw.githubusercontent.com/bevry/awesome-travis/9fa2fa025c77b463d03154f39922af95cadc9c67/scripts/node-publish.bash)"
+notifications:
+  email:
+    recipients: >-
+      g7iKjHkBJmTtiZ3ghirPaDCIASOwiXV5LzE8PGP1BfzSfCNFDkyxrghnqUcZEH+b5V4pbttFSdCOrXAM2i2GliEiTIl8DSRXa5PNhTr34kBA22fuQkxti5AIQAoyydExMS7fas5d+g8DYwnVfiPWNLhWACZGaUy1XGPEX+VFKEzKwlkx1//5U/+eETd4pWID50602fpTc77F13nXFdZDrivGGB0wTsInAKYFAT6wzyoIXTcDMeoflAAdOYKkDtNKhI/tAxsPn4nMHRit/JbBfnWJrPcqQBxa4+km7biUcav0tpZ5YoMqtiQ1rNZHtQpT8R214aYng8VLEYIQf8s+jjQCS7/qpv3L7M3bhuy8U8S09sj8afDS98ok/hIkh0EHM8FkMnVdY2iyNUcv2Il9LTlV/EXYHJeBx8d2FmuaggQTvQ464WeSD9FP4jr33TcMS/LrcS92FBOg6tJ2Up7Di4DPbyyp83Sd/RMyhjzehALdosCfWDNyLm+ox0lr2VfOvqlHSXqlnFBM6bm8A9OGFKuOaiX4d/pC2vh7qm8htr/FZ+fYnzU5ONTcSt2SpLRzp4TzrS/HOkGBOr2nv9aCMdy5RnNezE3uLUMUSgNXNFNb9D3NLkWtNEF8h4G+yoXaGr6yXiQFkU7NFhqJghwqGC8vMcl4+ZFSnbMUAStt7TI=

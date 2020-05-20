@@ -1,5 +1,10 @@
 # History
 
+## v2.0.0 2020 May 21
+
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+-   Minimum required node version changed from `node: >=8` to `node: >=10` to keep up with mandatory ecosystem changes
+
 ## v1.9.0 2020 May 11
 
 -   Not uses compiled types, rather than the source, so that consumers don't have to specify they need the DOM in their own `tsconfig:lib`

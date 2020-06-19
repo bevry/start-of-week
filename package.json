@@ -5,10 +5,15 @@
   "homepage": "https://github.com/bevry/start-of-week",
   "license": "MIT",
   "keywords": [
+    "allow-env",
     "browser",
     "daet",
     "date",
     "day",
+    "deno",
+    "deno-edition",
+    "deno-entry",
+    "denoland",
     "dom",
     "export-default",
     "locale",
@@ -116,7 +121,7 @@
     {
       "description": "TypeScript source code made to be compatible with Deno",
       "directory": "edition-deno",
-      "entry": "index.ts",
+      "entry": "deno.ts",
       "tags": [
         "typescript",
         "import",
@@ -133,7 +138,6 @@
   "main": "edition-esnext/index.js",
   "browser": "edition-browsers/index.js",
   "module": "edition-browsers/index.js",
-  "deno": "edition-deno/index.ts",
   "devDependencies": {
     "@bevry/update-contributors": "^1.9.0",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
@@ -193,5 +197,6 @@
   },
   "boundation": {
     "dom": true
-  }
+  },
+  "deno": "edition-deno/deno.ts"
 }

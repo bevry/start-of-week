@@ -1,26 +1,16 @@
-/** Fetch the user's locale via client-side */
-const navigatorLanguage =
-	(typeof navigator !== 'undefined' && navigator.language) || ''
+/** Receive a language, and return the start of the week (0 = Sunday, 1 = Monday) */
+export default function getStartOfWeek(language: string = ''): number {
+	/** Determine if the user is North American */
+	const NorthAmerican = /([_-]US|[_-]CA)$/.test(language)
 
-/** Fetch the user's locale via server-side */
-const envLanguage =
-	(typeof process !== 'undefined' &&
-		typeof process.env !== 'undefined' &&
-		process.env.LANG) ||
-	''
+	/** Sunday in JavaScript */
+	const Sunday = 0
 
-/** Fetch the user's locale */
-const language = navigatorLanguage || envLanguage
+	/** Monday in JavaScript */
+	const Monday = 1
 
-/** Determine if the user is North American */
-const NorthAmerican = /([_-]US|[_-]CA)$/.test(language)
+	/** If they are North American, return Sunday, otherwise Monday. */
+	const StartOfWeek = NorthAmerican ? Sunday : Monday
 
-/** Sunday in JavaScript */
-const Sunday = 0
-
-/** Monday in JavaScript */
-const Monday = 1
-
-/** If they are North American, return Sunday, otherwise Monday. */
-const StartOfWeek = NorthAmerican ? Sunday : Monday
-export default StartOfWeek
+	return StartOfWeek
+}

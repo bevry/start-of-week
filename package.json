@@ -1,6 +1,6 @@
 {
   "name": "start-of-week",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Returns the start of the week based on the locale.",
   "homepage": "https://github.com/bevry/start-of-week",
   "license": "MIT",
@@ -84,7 +84,7 @@
     {
       "description": "TypeScript source code with Import for modules",
       "directory": "source",
-      "entry": "index.ts",
+      "entry": "node.ts",
       "tags": [
         "typescript",
         "import"
@@ -148,15 +148,15 @@
     "eslint-config-bevry": "^3.10.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "kava": "^5.5.0",
-    "make-deno-edition": "^0.7.0",
+    "kava": "^5.6.0",
+    "make-deno-edition": "^0.9.0",
     "prettier": "^2.0.5",
     "projectz": "^2.7.0",
     "surge": "^0.21.3",
     "typedoc": "^0.17.7",
     "typescript": "^3.9.5",
     "valid-directory": "^2.4.0",
-    "valid-module": "^1.5.0"
+    "valid-module": "^1.6.0"
   },
   "devDependencies": {
     "@bevry/update-contributors": "^1.10.0",
@@ -167,15 +167,15 @@
     "eslint-config-bevry": "^3.10.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "kava": "^5.5.0",
-    "make-deno-edition": "^0.7.0",
+    "kava": "^5.6.0",
+    "make-deno-edition": "^0.9.0",
     "prettier": "^2.0.5",
     "projectz": "^2.7.0",
     "surge": "^0.21.3",
     "typedoc": "^0.17.7",
     "typescript": "^3.9.5",
     "valid-directory": "^2.4.0",
-    "valid-module": "^1.5.0"
+    "valid-module": "^1.6.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",

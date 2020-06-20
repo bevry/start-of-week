@@ -1,5 +1,9 @@
 # History
 
+## v2.6.0 2020 June 20
+
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v2.5.0 2020 June 11
 
 -   Support Deno, Browsers, and Node.js through the use of custom entries

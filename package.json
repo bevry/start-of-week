@@ -1,6 +1,6 @@
 {
   "name": "start-of-week",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "Returns the start of the week based on the locale.",
   "homepage": "https://github.com/bevry/start-of-week",
   "license": "MIT",
@@ -140,7 +140,7 @@
   "browser": "edition-browsers/browser.js",
   "module": "edition-browsers/browser.js",
   "devDependencies": {
-    "@bevry/update-contributors": "1.9.0",
+    "@bevry/update-contributors": "^1.9.0",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
     "@typescript-eslint/parser": "^3.3.0",
     "assert-helpers": "^6.8.0",
@@ -155,8 +155,8 @@
     "surge": "^0.21.3",
     "typedoc": "^0.17.7",
     "typescript": "^3.9.5",
-    "valid-directory": "2.2.0",
-    "valid-module": "1.4.0"
+    "valid-directory": "^2.5.0",
+    "valid-module": "^1.6.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",

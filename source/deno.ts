@@ -1,8 +1,9 @@
 import getStartOfWeek from './index.js'
 
-/** Fetch the user's locale via Deno */
-// @ts-ignore
-const language = Deno.env.get('LANG') || ''
-
-// Export
-export default getStartOfWeek(language)
+/** {@link getStartOfWeek} with the locale prefilled to that of the current Deno user */
+export default function getStartOfWeekDeno(
+	// @ts-ignore
+	language = Deno.env.get('LANG') || ''
+): number {
+	return getStartOfWeek(language)
+}

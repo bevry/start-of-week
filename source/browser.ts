@@ -1,8 +1,9 @@
 import getStartOfWeek from './index.js'
 
-/** Fetch the user's locale via client-side */
-// @ts-ignore
-const language = window.navigator.language || ''
-
-// Export
-export default getStartOfWeek(language)
+/** {@link getStartOfWeek} with the locale prefilled to that of the current web browser user */
+export default function getStartOfWeekBrowser(
+	// @ts-ignore
+	language = window.navigator.language || ''
+): number {
+	return getStartOfWeek(language)
+}

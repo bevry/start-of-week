@@ -1,5 +1,10 @@
 # History
 
+## v3.0.0 2020 June 25
+
+-   No longer export a string, instead we export the getter method, which defaults the locale input argument to the user's locale
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v2.8.0 2020 June 22
 
 -   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)

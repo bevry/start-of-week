@@ -1,7 +1,7 @@
-/** Receive a language, and return the start of the week (0 = Sunday, 1 = Monday) */
+/** Take a locale and return its start of the week (0 = Sunday, 1 = Monday) */
 export default function getStartOfWeek(language: string = ''): number {
 	/** Determine if the user is North American */
-	const NorthAmerican = /([_-]US|[_-]CA)$/.test(language)
+	const NorthAmerican = /[_-](?:US|CA)/.test(language.split('.')[0])
 
 	/** Sunday in JavaScript */
 	const Sunday = 0

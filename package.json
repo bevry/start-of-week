@@ -1,6 +1,6 @@
 {
   "name": "start-of-week",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Take a locale and return its start of the week (0 = Sunday, 1 = Monday)",
   "homepage": "https://github.com/bevry/start-of-week",
   "license": "MIT",
@@ -84,7 +84,7 @@
     {
       "description": "TypeScript source code with Import for modules",
       "directory": "source",
-      "entry": "index.ts",
+      "entry": "node.ts",
       "tags": [
         "typescript",
         "import"
@@ -145,13 +145,13 @@
     "@typescript-eslint/parser": "^3.4.0",
     "assert-helpers": "^6.13.0",
     "eslint": "^7.3.1",
-    "eslint-config-bevry": "^3.12.0",
+    "eslint-config-bevry": "^3.13.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "kava": "^5.7.0",
-    "make-deno-edition": "^0.13.0",
+    "kava": "^5.8.0",
+    "make-deno-edition": "^0.14.0",
     "prettier": "^2.0.5",
-    "projectz": "^2.10.1",
+    "projectz": "^2.11.0",
     "surge": "^0.21.3",
     "typedoc": "^0.17.7",
     "typescript": "^3.9.5",

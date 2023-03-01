@@ -1,5 +1,9 @@
 # History
 
+## v3.8.2 2023 March 1
+
+-   Updated dependencies
+
 ## v3.8.1 2023 February 28
 
 -   Manual fix of exports for Cloudflare Workers compatibility

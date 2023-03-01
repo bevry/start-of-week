@@ -1,5 +1,9 @@
 # History
 
+## v3.8.1 2023 February 28
+
+-   Manual fix of exports for Cloudflare Workers compatibility
+
 ## v3.8.0 2021 July 31
 
 -   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)

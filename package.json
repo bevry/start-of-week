@@ -1,6 +1,6 @@
 {
   "name": "start-of-week",
-  "version": "3.8.0",
+  "version": "3.8.1",
   "description": "Take a locale and return its start of the week (0 = Sunday, 1 = Monday)",
   "homepage": "https://github.com/bevry/start-of-week",
   "license": "MIT",
@@ -152,10 +152,11 @@
       }
     }
   ],
-  "types": "./compiled-types/",
-  "type": "module",
-  "main": "edition-es2019/node.js",
   "exports": {
+    "workerd": {
+      "import": "./edition-es2019-esm/index.js",
+      "require": "./edition-es2019/index.js"
+    },
     "node": {
       "import": "./edition-es2019-esm/node.js",
       "require": "./edition-es2019/node.js"
@@ -164,9 +165,12 @@
       "import": "./edition-browsers/browser.js"
     }
   },
+  "type": "module",
+  "types": "./compiled-types/",
   "deno": "edition-deno/deno.ts",
   "browser": "edition-browsers/browser.js",
-  "module": "edition-browsers/browser.js",
+  "module": "edition-es2019-esm/node.js",
+  "main": "edition-es2019/node.js",
   "devDependencies": {
     "@bevry/update-contributors": "^1.19.0",
     "@typescript-eslint/eslint-plugin": "^4.28.5",

@@ -1,9 +1,21 @@
 # Security Policy
 
+## Security Practices
+
+This project meets standardized secure software development practices, including 2FA for all members, password managers with monitoring, secure secret retrieval instead of storage. [Learn more about our practices.](https://tidelift.com/funding/github/npm/start-of-week)
+
 ## Supported Versions
 
-HEAD receives all updates. [Bevry's automated tooling](https://github.com/bevry/boundation) maintains compatibility with a wide range of ecosystems (Node.js versions, Browsers, Deno) bringing the latest updates to all possible targets.
+This project uses [Bevry's automated tooling](https://github.com/bevry/boundation) to deliver the latest updates, fixes, and improvements inside the latest release while still maintaining widespread ecosystem compatibility.
+
+[Refer to supported ecosystem versions: `Editions` section in `README.md`.](https://github.com/bevry/start-of-week/blob/master/README.md#Editions)
+
+[Refer to automated support of ecosystem versions: `boundation` entries in `HISTORY.md`.](https://github.com/bevry/start-of-week/blob/master/HISTORY.md)
+
+Besides testing and verification, out CI also [auto-merges](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions) [Dependabot security updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) and [auto-publishes](https://github.com/bevry-actions/npm) successful builds of the [`master` branch](https://github.com/bevry/wait/actions?query=branch%3Amaster) to the [`next` version tag](https://www.npmjs.com/package/start-of-week?activeTab=versions), offering immediate resolutions before scheduled maintenance releases.
 
 ## Reporting a Vulnerability
 
-Privately discuss, fix, and publish information about security vulnerabilities via [GitHub's Security Advisories](https://github.com/bevry/start-of-week/security/advisories).
+[Report the vulnerability to the project owners.](https://github.com/bevry/start-of-week/security/advisories)
+
+[Report the vulnerability to Tidelift.](https://tidelift.com/security)

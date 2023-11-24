@@ -62,14 +62,14 @@ If you want something comprehensive, use [gamtiq/weekstart](https://github.com/g
 <a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
 
 ``` typescript
-import pkg from 'https://unpkg.com/start-of-week@^4.3.0/edition-deno/deno.ts'
+import pkg from 'https://unpkg.com/start-of-week@^4.4.0/edition-deno/deno.ts'
 ```
 
 <a href="https://www.skypack.dev" title="Skypack is a JavaScript Delivery Network for modern web apps"><h3>Skypack</h3></a>
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/start-of-week@^4.3.0'
+    import pkg from '//cdn.skypack.dev/start-of-week@^4.4.0'
 </script>
 ```
 
@@ -77,7 +77,7 @@ import pkg from 'https://unpkg.com/start-of-week@^4.3.0/edition-deno/deno.ts'
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/start-of-week@^4.3.0'
+    import pkg from '//unpkg.com/start-of-week@^4.4.0'
 </script>
 ```
 
@@ -85,7 +85,7 @@ import pkg from 'https://unpkg.com/start-of-week@^4.3.0/edition-deno/deno.ts'
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/start-of-week@4.3.0'
+    import pkg from '//dev.jspm.io/start-of-week@4.4.0'
 </script>
 ```
 
